@@ -1,0 +1,468 @@
+@media only screen and (max-width:1280px) {
+
+}
+
+@media only screen and (max-width:1024px ) /*and (min-width: px)*/ {
+	.slogan {
+		font-size: 16px;
+	}
+	.nav a {
+		font-size: 14px; 
+	}
+	.search {
+		margin-left: 85px;
+		margin-right: 52px;
+		margin-bottom:5px;
+	}
+	.content {
+		margin-left:25px;
+		margin-right:30px;
+	}
+	.nivo-controlNav {
+		top: 300px;
+		left: 865px; 
+		bottom: 20px;
+	}
+	.nivo-caption {
+		width:350px;
+		height:250px;
+		top:61px;
+		left:571px;
+		right: 53px;
+		bottom: 140px;
+	}
+	.nivo-caption-head {
+		font-size: 22px; 
+	}
+	.nivo-caption-details {
+		font-size: 14px; 
+		line-height:1.5;
+	}
+	.paint {
+		height:260px;
+	}
+	.brush {
+		height:260px;
+	}
+	.color {
+		height:260px;
+	}
+	.donate {
+		height:253px;
+	}
+	.paint p {
+		margin-bottom:25px;
+	}
+	.news p {
+		margin-top:12px;
+	}
+	.footerinfo {
+		height:auto;
+		width: auto;
+		padding-left: 53px;
+		padding-top: 54px;
+		float:left;
+	}
+	.footerlinks {
+		padding-top: 24px;
+		/*margin-bottom: 54px;*/
+		margin-left:53px;
+	}
+	.footer a {
+		font-size: 13.5px; 
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.slogan {
+		font-size: 16px;
+		float:left;
+		margin-left:42px;
+		margin-top:0px;
+		margin-bottom:15px;
+	}
+	.nav a {
+		font-size: 12px; 
+		margin: 27px 8.5px 27px 8.5px;
+	}
+	.nav .left {
+		margin: 27px 26.5px 27px 43px;
+	}
+	.search {
+		margin-left: 45px;
+		margin-right: 52px;
+		margin-bottom:5px;
+	}
+	.nav .search img {
+		background-size: 40%;
+	}
+	.content {
+		margin-left:25px;
+		margin-right:30px;
+	}
+	.nivo-controlNav {
+		top: 210px;
+		left: 615px; 
+		bottom: 20px;
+	}
+	.nivo-caption {
+		width:250px;
+		height:250px;
+		top:21px;
+		left:420px;
+		right: 53px;
+		bottom: 140px;
+	}
+	.nivo-caption-head {
+		font-size: 18px; 
+	}
+	.nivo-caption-details {
+		font-size: 13px; 
+		line-height:1.2;
+		margin-bottom:15px;
+	}
+	.slider .button {
+		font-size: 15px; 
+		padding:4px 17px 9px 17px;
+	}
+	.nivo-controlNav a {
+		background-size: 80%;
+	}
+	.nivo-controlNav a.active {
+		background-size: 80%;
+	}
+	.footerinfo {
+		height:auto;
+		width: auto;
+		padding-left: 53px;
+		padding-top: 54px;
+		float:left;
+	}
+	.footerlinks {
+		padding-top: 24px;
+		margin-bottom: 54px;
+		margin-left:53px;
+	}
+	.footer a {
+		font-size: 9.5px; 
+	}
+}
+@media only screen and (max-width:640px) {
+	.tab-bar {
+		background-color:#252525;
+	}
+	.top-bar  {
+		background-color:#252525;
+		width:90%;
+	}
+	.right  img {
+		float:right;
+		padding-top:8px;
+	}
+	nav {
+		width:95.3%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.nivo-controlNav {
+		top: 180px;
+		left: 490px; 
+		bottom: 20px;
+	}
+	.nivo-prevNav {
+		left:6px;
+		height:36px;
+		width: 22px;
+		background-size: 70%;
+	}
+	.nivo-nextNav {
+		right:6px;
+		height:36px;
+		width: 22px;
+		background-size: 70%;
+	}
+	.nivo-caption {
+		width:200px;
+		height:250px;
+		top:21px;
+		left:350px;
+		right: 53px;
+		bottom: 140px;
+	}
+	.nivo-caption-head {
+		font-size: 16px; 
+	}
+	.nivo-caption-details {
+		font-size: 10px; 
+		line-height:1.2;
+		margin-bottom:10px;
+	}
+	.slider .button {
+		font-size: 10px; 
+		padding:4px 17px 6px 17px;
+	}
+	.nivo-controlNav a {
+		background-size: 70%;
+	}
+	.nivo-controlNav a.active {
+		background-size: 70%;
+	}
+	.newscontent {
+		margin-bottom:80px;
+		margin-top:50px;
+		height:330px;
+	}
+	.arts p {
+		margin-bottom:35px;
+	}
+	.footerinfo {
+		padding-left: 23px;
+		padding-top: 23px;
+	}
+	.footerlinks {
+		padding-top: 24px;
+		margin-left:23px;
+	}
+	.footer a {
+		font-size: 8px; 
+	}
+	.footerright {
+		margin-right: 5px;
+		padding-top: 23px;
+	}
+	.footer h1{
+		font-size: 20px; 
+	}
+	.footer h2{
+		font-size: 14px;
+	}
+	.footer p {
+		font-size: 12px; 
+	}
+	.sep {
+		font-size: 8px; 
+	}
+	.footer {
+		padding-bottom:2px;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	nav {
+		width:93.4%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.nivo-controlNav {
+		top: 120px;
+		left: 360px; 
+		bottom: 10px;
+	}
+	.nivo-prevNav {
+		left:6px;
+		height:36px;
+		width: 22px;
+		background-size: 50%;
+	}
+	.nivo-nextNav {
+		right:6px;
+		height:36px;
+		width: 22px;
+		background-size: 50%;
+	}
+	.nivo-caption {
+		width:150px;
+		height:150px;
+		top:11px;
+		left:250px;
+		right: 53px;
+		bottom: 140px;
+	}
+	.nivo-caption-head {
+		font-size: 11px; 
+		margin-bottom:0px;
+		line-height:1;
+	}
+	.nivo-caption-details {
+		font-size: 8px; 
+		line-height:1.2;
+		margin-bottom:10px;
+	}
+	.slider .button {
+		font-size: 5px; 
+		padding:4px 17px 6px 17px;
+		margin-top:0;
+	}
+	.nivo-controlNav a {
+		background-size: 40%;
+		margin-right:2px;
+	}
+	.nivo-controlNav a.active {
+		background-size: 40%;
+	}
+	.footerinfo {
+		padding-left: 23px;
+		padding-top: 23px;
+	}
+	.footerlinks {
+		padding-top: 24px;
+		padding-bottom: 25px;
+		margin-left:23px;
+	}
+	.footer a {
+		font-size: 5px; 
+	}
+	.footer h1{
+		font-size: 16px; 
+	}
+	.footer h2{
+		font-size: 13px;
+	}
+	.footer p {
+		font-size: 9px; 
+	}
+	.sep {
+		font-size: 8px; 
+	}
+	.footerright {
+		clear:both;
+		margin-left:23px;
+		float:left !important;
+	}
+	.footerafil img {
+		padding-top:16px;
+		margin-left:23px;
+	}
+	.footer {
+		padding-bottom:0;
+	}
+}
+
+@media only screen and (max-width:380px) {
+
+}
+
+@media only screen and (max-width:320px) {
+	.logo {
+		margin-left:22px;
+		margin-top:15px;
+		margin-bottom: 13px;
+		float:left;
+		width:200px;
+	}
+	.slogan {
+		width:85%;
+		font-size:12px;
+		margin-left:22px;
+	}
+	nav {
+		width:83.5%;
+		margin-left:15px;
+		/*margin-right:auto;*/
+	}
+	.nivo-caption {
+		width:90px;
+		height:80px;
+		top:11px;
+		left:160px;
+		right: 53px;
+		/*bottom: 140px;*/
+	}
+	.nivo-caption-head {
+		font-size: 6px; 
+		height:auto;
+		padding:0;
+		margin-bottom:10px;
+		/*line-height:0;*/
+	}
+	.nivo-caption-details {
+		font-size: 5px; 
+		line-height:1.1;
+		margin:0;
+	}
+	.nivo-prevNav {
+		left:10px;
+		height:36px;
+		width: 22px;
+		background-size: 30%;
+	}
+	.nivo-nextNav {
+		right:0px;
+		height:36px;
+		width: 22px;
+		background-size: 30%;
+	}
+	.slider .button {
+		font-size: 5px; 
+		padding:4px 5px 6px 5px;
+		margin-top:0;
+	}
+	.nivo-controlNav {
+		top: 70px;
+		left: 236px; 
+		bottom: 10px;
+	}
+	.nivo-controlNav a {
+		width:12px;
+		margin:0;
+	}
+	.nivo-controlNav a.active {
+		width:12px;
+	}
+	.paint {
+		height:290px;
+	}
+	.brush {
+		height:290px;
+	}
+	.color {
+		height:290px;
+	}
+	.donate {
+		height:253px;
+	}
+	.footerinfo {
+		padding-left: 23px;
+		padding-top: 23px;
+	}
+	.footerlinks {
+		padding-top: 24px;
+		padding-bottom: 25px;
+		margin-left:23px;
+	}
+	.footer a {
+		font-size: 3px; 
+	}
+	.footer h1{
+		font-size: 13px; 
+	}
+	.footer h2{
+		font-size: 10px;
+	}
+	.footer p {
+		font-size: 5px; 
+		margin:0;
+	}
+	.sep {
+		font-size: 5px; 
+	}
+	.footerright {
+		margin-left:23px;
+		margin-top:0px;
+	}
+	.footerafil img {
+		padding-top:16px;
+		margin-left:0px;
+		width:180px;
+	}
+	.footersocial .one{
+		width:70px;
+		padding-right:7px;
+	}
+	.footersocial .two {
+		width:120px;
+	}
+	.newscontent {
+		height:auto;
+	}
+}

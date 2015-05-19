@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Carpet Calculator</title>
+<script type="text/javascript" src="SCRIPTS/jscarpet.js"> </script>
+</head>
+
+<body bgcolor="#00CCFF">
+<form id="form1" name="form1" method="post" action="">
+  <div align="center">
+    <table width="960" border="0" cellspacing="10" cellpadding="10">
+      <tr>
+        <td colspan="4"><h1 align="center">Carpet Price Calculator</h1></td>
+      </tr>
+      <tr>
+        <td><p>Select a room:</p>
+          <p>
+            <select name="room" id="room">
+              <option>Bathroom</option>
+              <option>Dining Room</option>
+              <option>Living Room</option>
+              <option>Bedroom</option>
+            </select>
+        </p></td>
+        <td><p>Width of Room:</p>
+          <p>
+            <label for="width"></label>
+            <input type="text" name="width" id="width" />
+        </p></td>
+        <td><p>Length of Room:</p>
+          <p>
+            <label for="length"></label>
+            <input type="text" name="length" id="length" />
+        </p></td>
+        <td><p>Cost per sq ft:</p>
+          <p>
+            <label for="sqft"></label>
+            <input type="text" name="sqft" id="sqft" />
+        </p></td>
+      </tr>
+      <tr>
+        <td colspan="4"><div align="center">
+          <input type="submit" onclick="calccost()" value="Calculate" />
+        </div></td>
+      </tr>
+    </table>
+  </div>
+</form>
+</body>
+</html>

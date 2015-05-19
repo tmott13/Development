@@ -1,0 +1,88 @@
+﻿@model IEnumerable<Filament.Models.Project_Rate>
+           @{
+               Layout = null;
+           }
+<div id="ratetab">
+   <h4>Current Rate</h4><br/>
+
+    <table class="table">
+
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Project_Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hourly_Rate)
+            </th>
+        </tr>
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Project_Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hourly_Rate)
+                </td>
+
+                <td>
+                    @using (Ajax.BeginForm("Create", "Project_Rate", new { @id = item.ProjectRateId }, new AjaxOptions
+                    {
+
+                        HttpMethod = "GET",
+                        UpdateTargetId = "ratetab"
+                    }, new { @id = item.ProjectRateId, @class = "Create", @method = "get" }))
+                    {
+
+                        @Html.AntiForgeryToken()
+                        <input type="submit" value="Create" />
+
+                    }
+           
+                    @using (Ajax.BeginForm("Edit", "Project_Rate", new { @id = item.ProjectRateId }, new AjaxOptions
+                    {
+
+                        HttpMethod = "GET",
+                        UpdateTargetId = "ratetab"
+                    }, new { @id = item.ProjectRateId, @class = "Edit", @method = "get" }))
+                    {
+                     
+                        @Html.AntiForgeryToken()
+                        <input type="submit" value="Edit" />
+
+                    }
+              
+                    @*@using (Ajax.BeginForm("Details", "Project_Rate", new { @id = item.ProjectRateId }, new AjaxOptions
+                    {
+
+                        HttpMethod = "GET",
+                        UpdateTargetId = "ratetab"
+                    }, new { @id = item.ProjectRateId, @class = "Details", @method = "get" }))
+                    {
+
+                        @Html.AntiForgeryToken()
+                        <input type="submit" value="Details" />
+
+                    }*@
+                    @using (Ajax.BeginForm("Delete", "Project_Rate", new { @id = item.ProjectRateId }, new AjaxOptions
+                    {
+
+                        HttpMethod = "GET",
+                        UpdateTargetId = "ratetab"
+                    }, new { @id = item.ProjectRateId, @class = "Delete", @method = "get" }))
+                    {
+
+                        @Html.AntiForgeryToken()
+                        <input type="submit" value="Delete" />
+
+                    }
+                </td>
+            </tr>
+        }
+
+
+    </table>
+ 
+
+</div>

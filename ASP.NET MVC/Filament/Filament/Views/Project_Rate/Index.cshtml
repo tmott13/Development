@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Filament.Models.Project_Rate>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Project_Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hourly_Rate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Project.Project_Title)
+            </th>
+         
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Project_Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hourly_Rate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Project.Project_Title)
+                </td>
+            
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ProjectRateId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.ProjectRateId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ProjectRateId })
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

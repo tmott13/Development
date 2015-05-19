@@ -1,0 +1,121 @@
+﻿@model Filament.Models.Project
+
+@{
+    ViewBag.Title = "Edit Project";
+}
+
+<h2>Project Management</h2>
+<ul class="nav nav-tabs">
+    <li class="active"><a href="#gen" data-toggle="tab">General</a></li>
+    <li><a href="#billing" data-toggle="tab">Billing Schedules</a></li>
+    <li><a href="#rates" data-toggle="tab">Rates</a></li>
+    <li><a href="#groups" data-toggle="tab">Groups</a></li>
+    <li><a href="#employee" data-toggle="tab">Employees</a></li>
+    <li><a href="#docs" data-toggle="tab">Documents</a></li>
+    <li><a href="#sales" data-toggle="tab">Sales Reps</a></li>
+    <li><a href="#tfs" data-toggle="tab">TFS Associations</a></li>
+    <li><a href="#notes" data-toggle="tab">Notes</a></li>
+</ul>
+<div class="tab-content well">
+    <div class="tab-pane active" id="gen">
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <h4>Project</h4>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.ProjectId)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Project_Title, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Project_Title, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Project_Title, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Project_Manager, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Project_Manager, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Project_Manager, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Project_Type, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Project_Type, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Project_Type, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Billing_Type, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Billing_Type, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Billing_Type, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Start_Date, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Start_Date, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Start_Date, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Active, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            @Html.EditorFor(model => model.Active)
+                            @Html.ValidationMessageFor(model => model.Active, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Save" class="btn btn-default" />
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    </div>
+    <div class="tab-pane" id="billing">
+  
+    </div>
+    <div class="tab-pane" id="rates">
+        @Html.Partial("~/Views/Project_Rate/_ProjectRate.cshtml", Model.Project_Rate)
+    </div>
+    <div class="tab-pane" id="groups">
+
+    </div>
+    <div class="tab-pane" id="employees">
+
+    </div>
+    <div class="tab-pane" id="docs">
+
+    </div>
+    <div class="tab-pane" id="sales">
+
+    </div>
+    <div class="tab-pane" id="tfs">
+
+    </div>
+    <div class="tab-pane" id="notes">
+
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

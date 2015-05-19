@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#header {
+	display:none;
+}
+
+h2,h3 {
+	color:#666;
+}
+
+
+#nav {
+	display:none;
+}
+
+#title {
+	display:inline;
+}

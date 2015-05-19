@@ -1,0 +1,98 @@
+﻿@model Filament.Models.Project_Rate
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <div id="ratestab">
+
+
+   @*@using (Html.BeginForm())
+   {*@
+    @using (Ajax.BeginForm("_ProjectRate", "Project_Rate", new { @id = Model.ProjectRateId }, new AjaxOptions
+                    {
+
+                        HttpMethod = "POST",
+                        UpdateTargetId = "ratestab"
+                    }, new { @id = Model.ProjectRateId, @class = "_ProjectRate", @method = "post" }))
+   {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <h4>Project_Rate</h4>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.ProjectRateId)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Project_Title, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Project_Title, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Project_Title, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Hourly_Rate, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Hourly_Rate, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Hourly_Rate, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ProjectId, "ProjectId", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("ProjectId", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.ProjectId, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+              
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                  
+
+                            @Html.AntiForgeryToken()
+                            <input type="submit" value="Save" class="btn btn-default" />
+
+                            @Html.Hidden("ProjectId", Model.ProjectId)
+  
+                        <input type="submit" value="Save" class="btn btn-default" />
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div>
+            @*@Html.ActionLink("Back to List", "Index")*@
+            @using (Ajax.BeginForm("_ProjectRate", "Project_Rate", new { @id = Model.ProjectRateId }, new AjaxOptions
+                    {
+
+                        HttpMethod = "GET",
+                        UpdateTargetId = "ratestab"
+                    }, new { @id = Model.ProjectRateId, @class = "_ProjectRate", @method = "get" }))
+            {
+
+                @Html.AntiForgeryToken()
+    <input type="submit" value="Back to List" class="btn btn-default" />
+
+                @Html.Hidden("ProjectId", Model.ProjectId)
+            }
+         
+ 
+        </div>
+      
+    </div>
+
+</body>
+</html>

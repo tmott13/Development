@@ -1,0 +1,102 @@
+﻿<%@ Master Language="VB" CodeFile="Main.master.vb" Inherits="Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Vacation Getaways</title>
+  
+    
+      <!--[if lte IE 7]>
+<style type="text/css">
+html .jqueryslidemenu{height: 1%;} /*Holly Hack for IE7 and below*/
+</style>
+<![endif]-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<script src="jqueryslidemenu.js" type="text/javascript"></script>
+  <link href="css/jqueryslidemenu.css" rel="stylesheet" type="text/css" />
+    <link href="css/Main.css" rel="stylesheet" type="text/css" />
+    <link href="css/Request.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    #wrapper 
+    {
+        background-image:url(images/gradient.gif);  
+    }
+    
+    #container 
+    {
+        margin-top:10px;
+        padding:20px;
+        margin-left:auto;
+        margin-right:auto;
+        width:962px;
+        background-color:#FFF;
+    }
+    
+    .content 
+    {
+        padding:10px;
+    }
+    
+    #footer 
+    {
+        padding:10px;
+        font-size:.75em;
+        text-align:center;
+        font-style:italic;
+    }
+    
+    </style>
+  
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<div id="wrapper">
+    <div id="container">
+        <div align="center">
+        <img src="images/logo.gif" alt="Vacation" title="Vacation" />
+            <div id="myslidemenu" class="jqueryslidemenu">
+<ul>
+<li><a href="Default.aspx">Home</a></li>
+<li><a href="Reservation.aspx">Hotel</a></li>
+<li><a href="Kayak.aspx">Kayak</a></li>
+<li><a href="Snorkeling.aspx">Snorkeling</a></li>
+<li><a href="About.aspx">About Us</a></li>
+<li><a href="Contact.aspx">Contact Us</a></li>
+</ul>
+<br style="clear: left" />
+</div>
+        </div>
+        <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        </form>
+        
+    </div>
+<div id="footer">
+
+    <br />
+    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="Default.aspx">Home</asp:HyperLink>
+&nbsp;|
+    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="Reservation.aspx">Hotel</asp:HyperLink>
+&nbsp;|
+    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="Kayak.aspx">Kayak Tours</asp:HyperLink>
+&nbsp;|
+    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="Snorkeling.aspx">Snorkeling Tours</asp:HyperLink>
+&nbsp;|
+    <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="About.aspx">About Us</asp:HyperLink>
+&nbsp;|
+    <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="Contact.aspx">Contact Us</asp:HyperLink>
+    <br />
+    <br />
+    Vacation Getaways, Inc. | 1000 Chastian Road | 404-539-0489 | vgetaway@gmail.com</div>
+</div>
+
+</body>
+</html>

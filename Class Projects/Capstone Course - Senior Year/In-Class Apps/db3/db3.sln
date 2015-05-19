@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "db3", "db3\db3.vbproj", "{AD7D89B1-0DE1-414F-8B05-6E27F4E92064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD7D89B1-0DE1-414F-8B05-6E27F4E92064}.Debug|x86.ActiveCfg = Debug|x86
+		{AD7D89B1-0DE1-414F-8B05-6E27F4E92064}.Debug|x86.Build.0 = Debug|x86
+		{AD7D89B1-0DE1-414F-8B05-6E27F4E92064}.Release|x86.ActiveCfg = Release|x86
+		{AD7D89B1-0DE1-414F-8B05-6E27F4E92064}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KSU Pizza Parlor</title>
+<style type="text/css">
+body {
+	background-color: #F90;
+}
+</style>
+<script type="text/javascript" src="SCRIPTS/jspizza.js"> </script>
+</head>
+
+<body>
+<h1 align="center">KSU Pizza Parlor 
+</h1>
+<form id="form1" name="pizza" method="post" action="">
+  <table width="60%" border="0" align="center" cellpadding="10" cellspacing="0">
+    <tr bgcolor="#FFFF00">
+      <th colspan="2" scope="col"><div align="left">Step 1: Enter your name, address, and phone number:</div></th>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF00">Name:</td>
+      <td bgcolor="#FFFF00"><label for="name"></label>
+      <input name="name" type="text" id="name" size="50" /></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF00">Address:</td>
+      <td bgcolor="#FFFF00"><label for="address"></label>
+      <input name="address" type="text" id="address" size="50" /></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF00">City:</td>
+      <td bgcolor="#FFFF00"><label for="city"></label>
+      <input name="city" type="text" id="city" size="50" /></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF00"><p>State:</p></td>
+      <td bgcolor="#FFFF00"><label for="state"></label>
+      <input name="state" type="text" id="state" size="5" maxlength="2" /></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF00">Zip:</td>
+      <td bgcolor="#FFFF00"><label for="zip"></label>
+      <input name="zip" type="text" id="zip" size="5" maxlength="5" /></td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFF00">Phone:</td>
+      <td bgcolor="#FFFF00"><label for="phone"></label>
+      <input name="phone" type="text" id="phone" size="15" maxlength="10" /></td>
+    </tr>
+    <tr bgcolor="#FFFF00">
+      <td colspan="2" bgcolor="#FF9900">&nbsp;</td>
+    </tr>
+    <tr bgcolor="#FFFF00">
+      <td colspan="2"><strong>Step 2: Select the size of pizza you want:</strong></td>
+    </tr>
+    <tr bgcolor="#FFFF00">
+      <td colspan="2"><p>
+        <label>
+          <input type="radio" name="Sizes" value="small" id="Sizes_0" />
+          Small</label>
+        <br />
+        <label>
+          <input type="radio" name="Sizes" value="medium" id="Sizes_1" />
+          Medium</label>
+        <br />
+        <label>
+          <input type="radio" name="Sizes" value="large" id="Sizes_2" />
+          Large</label>
+        <br />
+      </p></td>
+    </tr>
+    <tr bgcolor="#FFFF00">
+      <td colspan="2" bgcolor="#FF9900">&nbsp;</td>
+    </tr>
+    <tr bgcolor="#FFFF00">
+      <td colspan="2"><strong>Step 3: Select the pizza topping(s) you want:</strong></td>
+    </tr>
+    <tr bgcolor="#FFFF00">
+      <td colspan="2"><p>
+        <label>
+          <input type="checkbox" name="Toppings" value="pepperoni" id="Toppings_0" />
+          Pepperoni</label>
+        <br />
+        <label>
+          <input type="checkbox" name="Toppings" value="bacon" id="Toppings_1" />
+          Bacon</label>
+        <br />
+        <label>
+          <input type="checkbox" name="Toppings" value="sausage" id="Toppings_2" />
+          Sausage</label>
+        <br />
+        <label>
+          <input type="checkbox" name="Toppings" value="mushroom" id="Toppings_3" />
+          Mushroom</label>
+        <br />
+        <label>
+          <input type="checkbox" name="Toppings" value="pineapple" id="Toppings_4" />
+          Pineapples</label>
+        <br />
+        <label>
+          <input type="checkbox" name="Toppings" value="olives" id="Toppings_5" />
+          Black Olives</label>
+        <br />
+      </p></td>
+    </tr>
+    <tr bgcolor="#FFFF00">
+      <td colspan="2" bgcolor="#FF9900">&nbsp;</td>
+    </tr>
+    <tr bgcolor="#FFFF00">
+      <td colspan="2"><input type="submit" name="Submit" id="Submit" value="Submit" onclick="doSubmit()"/>
+      <input type="submit" name="Clear" id="Clear" value="Clear" onclick="doClear()" /></td>
+    </tr>
+  </table>
+</form>
+
+</body>
+</html>

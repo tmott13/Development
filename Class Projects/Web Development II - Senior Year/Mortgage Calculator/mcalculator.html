@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Mortgage Calculator</title>
+<style type="text/css">
+body {
+	background-color: #F90;
+}
+</style>
+<script type="text/javascript" src="SCRIPTS/mcalc.js"> </script>
+</head>
+
+<body>
+
+<h1 align="center">Welcome to the Mortgage Calculator!</h1>
+<form id="form1" name="mortcalc" method="post" action="">
+	<table width="60%" border="0" align="center" cellpadding="10" cellspacing="0">
+	  <tr>
+		<td bgcolor="#FFFF00">Principal Amount:</td>
+		<td bgcolor="#FFFF00"><label for="principal"></label>
+		<input name="principal" type="text" id="principal" size="50" /></td>
+	  </tr>
+	  
+	   <tr>
+		<td bgcolor="#FFFF00">Yearly Percentage Rate:</td>
+		<td bgcolor="#FFFF00"><label for="year"></label>
+		<input name="year" type="text" id="year" size="50" /></td>
+	  </tr>
+	  
+	 
+	   <tr>
+		<td bgcolor="#FFFF00">Loan Term (months):</td>
+		<td bgcolor="#FFFF00"><label for="term"></label>
+		<input name="term" type="text" id="term" size="50" /></td>
+	  </tr>
+	  
+	   <tr>
+		<td bgcolor="#FFFF00">Monthly Payments:</td>
+		<td bgcolor="#FFFF00">$<label for="payments">&nbsp;</label></td>
+	  </tr>
+	  
+	
+	   <tr bgcolor="#FFFF00">
+	     <td>Payment Sum:</td>
+	     <td>$<label id="sum"></label>&nbsp;</td>
+      </tr>
+	   <tr bgcolor="#FFFF00">
+	     <td>Total:</td>
+	     <td>$<label id="total"></label>&nbsp;</td>
+      </tr>
+	   <tr bgcolor="#FFFF00">
+      <td colspan="2"><input type="submit" name="Calculate" id="Calculate" value="Calculate" onclick="doCalculate()"/>
+      <input type="submit" name="Clear" id="Clear" value="Clear" onclick="doClear()" /></td>
+    </tr>
+  </table>
+</form>
+	  
+
+</body>
+</html>

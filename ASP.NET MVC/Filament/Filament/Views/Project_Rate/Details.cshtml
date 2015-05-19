@@ -1,0 +1,70 @@
+﻿@model Filament.Models.Project_Rate
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div id="ratestab">
+        <div>
+            <h4>Project_Rate</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Project_Title)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Project_Title)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Hourly_Rate)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Hourly_Rate)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Project.Project_Title)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Project.Project_Title)
+                </dd>
+
+              
+
+            </dl>
+        </div>
+    </div>
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.ProjectRateId }) |
+            @*@Html.ActionLink("Back to List", "Index")*@
+            @using (Ajax.BeginForm("_ProjectRate", "Project_Rate", new { @id = Model.ProjectRateId }, new AjaxOptions
+                    {
+
+                        HttpMethod = "GET",
+                        UpdateTargetId = "ratestab"
+                    }, new { @id = Model.ProjectRateId, @class = "_ProjectRate", @method = "get" }))
+            {
+
+                @Html.AntiForgeryToken()
+                <input type="submit" value="Back to List" class="btn btn-default" />
+
+                @Html.Hidden("ProjectId", Model.ProjectId)
+            }
+
+
+        </p>
+        
+</body>
+</html>

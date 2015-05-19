@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FilamentModelStoreContainer" CdmEntityContainer="FilamentEntities1">
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="FilamentModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="Client_Name" ColumnName="Client Name" />
+          <ScalarProperty Name="Client_Description" ColumnName="Client Description" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Projects">
+      <EntityTypeMapping TypeName="FilamentModel.Project">
+        <MappingFragment StoreEntitySet="Project">
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="Project_Title" ColumnName="Project Title" />
+          <ScalarProperty Name="Project_Manager" ColumnName="Project Manager" />
+          <ScalarProperty Name="Project_Type" ColumnName="Project Type" />
+          <ScalarProperty Name="Billing_Type" ColumnName="Billing Type" />
+          <ScalarProperty Name="Start_Date" ColumnName="Start Date" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Project_Rates">
+      <EntityTypeMapping TypeName="FilamentModel.Project_Rate">
+        <MappingFragment StoreEntitySet="Project Rate">
+          <ScalarProperty Name="ProjectRateId" ColumnName="ProjectRateId" />
+          <ScalarProperty Name="Project_Title" ColumnName="Project Title" />
+          <ScalarProperty Name="Hourly_Rate" ColumnName="Hourly Rate" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 100%/1.5 Tahoma, Geneva, sans-serif;
+	background: #7F98C3;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #000000;
+}
+
+#wrapper {
+	background: url(../IMAGES/page_bottom.jpg) no-repeat center bottom;
+	margin: 0 auto 15px;
+	width: 700px;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+#container {
+	background: url(../IMAGES/body_back.jpg) repeat-y;
+	text-align: left;
+	padding-right:9px;
+	padding-left:9px;
+}
+
+#header {
+	background: #FFF;
+	padding: 40px 0 40px 150px;
+	
+}
+
+a img {
+	border:none;
+}
+
+a:link {
+	color: #628958;
+}
+
+a:visited {
+	color: #666;
+}
+
+a:hover, a:active, a:focus {
+	color:#CE5441;
+	text-decoration:none;
+}
+
+#sidebar a {
+	font-weight:bold;
+
+}
+
+p {
+	font-size:85%;
+}
+
+#sidebar {
+	float:right;
+	width:184px;
+	padding: 0 20px;
+	background: url(../IMAGES/corner_tl.gif) no-repeat;
+}
+
+#mainContent {
+	margin: 0;
+	padding: 0 20px 0 30px;
+	width:408px;
+	float:left;
+}
+
+#footer {
+	padding: 70px 0 30px;
+	background:#FFF url(../IMAGES/corner_br.gif) no-repeat right top;
+	position:relative;
+
+}
+
+#footer p {
+	margin:0;
+	padding: 0 70px 0 20px;
+	text-align: center;
+	color:#666;
+	font-size:70%;
+}
+
+.fltrt {
+	float:right;
+	margin-left:8px;
+	
+}
+
+.fltlt {
+	float:left;
+	margin-right: 8px;
+}
+
+.clearFloat {
+	clear:both;
+	height:0;
+	font-size:1px;
+	line-height:0px;
+}
+
+#container .overhang {
+	position:absolute;
+	left: -71px;
+	top:9px;
+}
+
+#container #footer .overhang {
+	background: url(../IMAGES/sm_flower.png) no-repeat;
+	height: 100px;
+	width:84px;
+	left:611px;
+	top:10px;
+}
+
+.pod {
+	padding: 10px 5px 0 15px;
+	border: 1px solid #628958;
+}
+
+h1,h2,h3,h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	color:#628958;
+	letter-spacing: -0.04em;
+}
+
+#mainContent h1 {
+	position: relative;
+	z-index: 2;
+	font-size: 180%;
+	text-align: right;
+	margin-right: 20px;
+	padding-top: .5em;
+}
+
+#mainContent h2 {
+	font-size: 150%;
+	text-align: right;
+	margin-top: 35px;
+	margin-right: 20px;
+}
+
+h3 {
+	font-size:130%;
+}
+
+#sidebar h3 {
+	padding-top: 1em;
+}
+
+.noTop {
+	margin-top:0;
+}
+
+.dropCap {
+	float:left;
+	font: 5em/0.85em Georgia, "Times New Roman", Times, serif;
+	padding: 0.03em 0.1em 0 0;
+	color: #7F98C3;
+}
+
+.print {
+	display: none;
+}
+
+#badges {
+	margin:0;
+}
+

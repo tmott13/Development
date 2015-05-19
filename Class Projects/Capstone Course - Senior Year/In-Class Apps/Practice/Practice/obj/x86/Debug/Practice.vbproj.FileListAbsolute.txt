@@ -1,0 +1,11 @@
+E:\Spring '13 Classes\Capstone\Practice\Practice\bin\Debug\Practice.exe
+E:\Spring '13 Classes\Capstone\Practice\Practice\bin\Debug\Practice.pdb
+E:\Spring '13 Classes\Capstone\Practice\Practice\bin\Debug\Practice.xml
+E:\Spring '13 Classes\Capstone\Practice\Practice\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Spring '13 Classes\Capstone\Practice\Practice\obj\x86\Debug\Practice.Form1.resources
+E:\Spring '13 Classes\Capstone\Practice\Practice\obj\x86\Debug\Practice.Resources.resources
+E:\Spring '13 Classes\Capstone\Practice\Practice\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Spring '13 Classes\Capstone\Practice\Practice\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Spring '13 Classes\Capstone\Practice\Practice\obj\x86\Debug\Practice.exe
+E:\Spring '13 Classes\Capstone\Practice\Practice\obj\x86\Debug\Practice.xml
+E:\Spring '13 Classes\Capstone\Practice\Practice\obj\x86\Debug\Practice.pdb

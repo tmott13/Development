@@ -1,0 +1,103 @@
+﻿@model Filament.Models.Client
+
+@{
+    ViewBag.Title = "Edit Client";
+    List<SelectListItem> Status = new List<SelectListItem> {
+      new SelectListItem {Text = "Active", Value = "Active"}, 
+      new SelectListItem {Text = "Not Active", Value = "Not Active"}, 
+ 
+  };
+}
+
+<h2>Client Management</h2>
+<ul class="nav nav-tabs">
+    <li class="active"><a href="#gen" data-toggle="tab">General</a></li>
+    <li><a href="#contacts" data-toggle="tab">Contacts</a></li>
+    <li><a href="proj" data-toggle="tab">Projects</a></li>
+    <li><a href="#tix" data-toggle="tab">Tickets</a></li>
+    <li><a href="#docs" data-toggle="tab">Documents</a></li>
+    <li><a href="#sla" data-toggle="tab">SLA</a></li>
+    <li><a href="#subcat" data-toggle="tab">Subcategories</a></li>
+    <li><a href="#acc" data-toggle="tab">Accounting</a></li>
+    <li><a href="#act" data-toggle="tab">Activity</a></li>
+</ul>
+<div class="tab-content well">
+    <div class="tab-pane active" id="gen">
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <h4>Client</h4>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.ClientId)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Client_Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Client_Name, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Client_Name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Client_Description, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Client_Description, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Client_Description, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                       
+                            @*@Html.EditorFor(model => model.Status)*@
+                            @Html.DropDownListFor(model => model.Status, Status, "Select One")
+                            @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+                       
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Save" class="btn btn-default" />
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    </div>
+    <div class="tab-pane" id="contacts">
+
+    </div>
+    <div class="tab-pane" id="proj">
+
+    </div>
+    <div class="tab-pane" id="tix">
+
+    </div>
+    <div class="tab-pane" id="docs">
+
+    </div>
+    <div class="tab-pane" id="sla">
+
+    </div>
+    <div class="tab-pane" id="subcat">
+
+    </div>
+    <div class="tab-pane" id="acc">
+
+    </div>
+    <div class="tab-pane" id="act">
+
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

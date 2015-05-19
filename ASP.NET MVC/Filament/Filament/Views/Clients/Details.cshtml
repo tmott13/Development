@@ -1,0 +1,80 @@
+﻿@model Filament.Models.Client
+
+@{
+    ViewBag.Title = "Client Details";
+}
+
+<h2>Client Management</h2>
+<ul class="nav nav-tabs">
+    <li class="active"><a href="#gen" data-toggle="tab">General</a></li>
+    <li><a href="#contacts" data-toggle="tab">Contacts</a></li>
+    <li><a href="proj" data-toggle="tab">Projects</a></li>
+    <li><a href="#tix" data-toggle="tab">Tickets</a></li>
+    <li><a href="#docs" data-toggle="tab">Documents</a></li>
+    <li><a href="#sla" data-toggle="tab">SLA</a></li>
+    <li><a href="#subcat" data-toggle="tab">Subcategories</a></li>
+    <li><a href="#acc" data-toggle="tab">Accounting</a></li>
+    <li><a href="#act" data-toggle="tab">Activity</a></li>
+</ul>
+<div class="tab-content well">
+    <div class="tab-pane active" id="gen">
+        <div>
+            <h4>Client</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Client_Name)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Client_Name)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Client_Description)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Client_Description)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Status)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Status)
+                </dd>
+
+            </dl>
+        </div>
+        <p>
+            @Html.ActionLink("Edit", "Edit", new { id = Model.ClientId }) |
+            @Html.ActionLink("Back to List", "Index")
+        </p>
+    </div>
+    <div class="tab-pane" id="contacts">
+
+    </div>
+    <div class="tab-pane" id="proj">
+
+    </div>
+    <div class="tab-pane" id="tix">
+
+    </div>
+    <div class="tab-pane" id="docs">
+
+    </div>
+    <div class="tab-pane" id="sla">
+
+    </div>
+    <div class="tab-pane" id="subcat">
+
+    </div>
+    <div class="tab-pane" id="acc">
+
+    </div>
+    <div class="tab-pane" id="act">
+
+    </div>
+</div>

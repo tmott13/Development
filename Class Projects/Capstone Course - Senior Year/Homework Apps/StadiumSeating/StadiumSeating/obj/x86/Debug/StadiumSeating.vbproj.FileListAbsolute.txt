@@ -1,0 +1,11 @@
+F:\Spring '13 Classes\Capstone\HW\StadiumSeating\StadiumSeating\bin\Debug\StadiumSeating.exe
+F:\Spring '13 Classes\Capstone\HW\StadiumSeating\StadiumSeating\bin\Debug\StadiumSeating.pdb
+F:\Spring '13 Classes\Capstone\HW\StadiumSeating\StadiumSeating\bin\Debug\StadiumSeating.xml
+F:\Spring '13 Classes\Capstone\HW\StadiumSeating\StadiumSeating\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Spring '13 Classes\Capstone\HW\StadiumSeating\StadiumSeating\obj\x86\Debug\StadiumSeating.Form1.resources
+F:\Spring '13 Classes\Capstone\HW\StadiumSeating\StadiumSeating\obj\x86\Debug\StadiumSeating.Resources.resources
+F:\Spring '13 Classes\Capstone\HW\StadiumSeating\StadiumSeating\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Spring '13 Classes\Capstone\HW\StadiumSeating\StadiumSeating\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Spring '13 Classes\Capstone\HW\StadiumSeating\StadiumSeating\obj\x86\Debug\StadiumSeating.exe
+F:\Spring '13 Classes\Capstone\HW\StadiumSeating\StadiumSeating\obj\x86\Debug\StadiumSeating.xml
+F:\Spring '13 Classes\Capstone\HW\StadiumSeating\StadiumSeating\obj\x86\Debug\StadiumSeating.pdb

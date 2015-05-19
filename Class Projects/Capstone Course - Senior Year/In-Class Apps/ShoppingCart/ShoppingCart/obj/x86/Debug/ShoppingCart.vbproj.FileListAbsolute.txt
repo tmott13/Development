@@ -1,0 +1,16 @@
+E:\Spring '13 Classes\Capstone\ShoppingCart\ShoppingCart\bin\Debug\ShoppingCart.exe
+E:\Spring '13 Classes\Capstone\ShoppingCart\ShoppingCart\bin\Debug\ShoppingCart.pdb
+E:\Spring '13 Classes\Capstone\ShoppingCart\ShoppingCart\bin\Debug\ShoppingCart.xml
+E:\Spring '13 Classes\Capstone\ShoppingCart\ShoppingCart\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Spring '13 Classes\Capstone\ShoppingCart\ShoppingCart\obj\x86\Debug\ShoppingCart.Form1.resources
+E:\Spring '13 Classes\Capstone\ShoppingCart\ShoppingCart\obj\x86\Debug\ShoppingCart.frmboots.resources
+E:\Spring '13 Classes\Capstone\ShoppingCart\ShoppingCart\obj\x86\Debug\ShoppingCart.frmpants.resources
+E:\Spring '13 Classes\Capstone\ShoppingCart\ShoppingCart\obj\x86\Debug\ShoppingCart.Resources.resources
+E:\Spring '13 Classes\Capstone\ShoppingCart\ShoppingCart\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Spring '13 Classes\Capstone\ShoppingCart\ShoppingCart\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Spring '13 Classes\Capstone\ShoppingCart\ShoppingCart\obj\x86\Debug\ShoppingCart.exe
+E:\Spring '13 Classes\Capstone\ShoppingCart\ShoppingCart\obj\x86\Debug\ShoppingCart.xml
+E:\Spring '13 Classes\Capstone\ShoppingCart\ShoppingCart\obj\x86\Debug\ShoppingCart.pdb
+F:\Spring '13 Classes\Capstone\In-Class\ShoppingCart\ShoppingCart\obj\x86\Debug\ShoppingCart.exe
+F:\Spring '13 Classes\Capstone\In-Class\ShoppingCart\ShoppingCart\obj\x86\Debug\ShoppingCart.xml
+F:\Spring '13 Classes\Capstone\In-Class\ShoppingCart\ShoppingCart\obj\x86\Debug\ShoppingCart.pdb

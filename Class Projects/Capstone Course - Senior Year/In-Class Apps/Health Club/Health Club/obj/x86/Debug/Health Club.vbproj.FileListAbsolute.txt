@@ -1,0 +1,14 @@
+E:\Spring '13 Classes\Capstone\Health Club\Health Club\bin\Debug\Health Club.exe
+E:\Spring '13 Classes\Capstone\Health Club\Health Club\bin\Debug\Health Club.pdb
+E:\Spring '13 Classes\Capstone\Health Club\Health Club\bin\Debug\Health Club.xml
+E:\Spring '13 Classes\Capstone\Health Club\Health Club\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Spring '13 Classes\Capstone\Health Club\Health Club\obj\x86\Debug\Health_Club.Form1.resources
+E:\Spring '13 Classes\Capstone\Health Club\Health Club\obj\x86\Debug\Health_Club.Resources.resources
+E:\Spring '13 Classes\Capstone\Health Club\Health Club\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Spring '13 Classes\Capstone\Health Club\Health Club\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Spring '13 Classes\Capstone\Health Club\Health Club\obj\x86\Debug\Health Club.exe
+E:\Spring '13 Classes\Capstone\Health Club\Health Club\obj\x86\Debug\Health Club.xml
+E:\Spring '13 Classes\Capstone\Health Club\Health Club\obj\x86\Debug\Health Club.pdb
+F:\Spring '13 Classes\Capstone\In-Class\Health Club\Health Club\obj\x86\Debug\Health Club.exe
+F:\Spring '13 Classes\Capstone\In-Class\Health Club\Health Club\obj\x86\Debug\Health Club.xml
+F:\Spring '13 Classes\Capstone\In-Class\Health Club\Health Club\obj\x86\Debug\Health Club.pdb

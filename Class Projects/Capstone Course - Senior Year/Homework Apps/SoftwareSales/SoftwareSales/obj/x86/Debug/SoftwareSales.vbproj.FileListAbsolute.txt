@@ -1,0 +1,11 @@
+F:\Spring '13 Classes\Capstone\HW\SoftwareSales\SoftwareSales\bin\Debug\SoftwareSales.exe
+F:\Spring '13 Classes\Capstone\HW\SoftwareSales\SoftwareSales\bin\Debug\SoftwareSales.pdb
+F:\Spring '13 Classes\Capstone\HW\SoftwareSales\SoftwareSales\bin\Debug\SoftwareSales.xml
+F:\Spring '13 Classes\Capstone\HW\SoftwareSales\SoftwareSales\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Spring '13 Classes\Capstone\HW\SoftwareSales\SoftwareSales\obj\x86\Debug\SoftwareSales.Form1.resources
+F:\Spring '13 Classes\Capstone\HW\SoftwareSales\SoftwareSales\obj\x86\Debug\SoftwareSales.Resources.resources
+F:\Spring '13 Classes\Capstone\HW\SoftwareSales\SoftwareSales\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Spring '13 Classes\Capstone\HW\SoftwareSales\SoftwareSales\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Spring '13 Classes\Capstone\HW\SoftwareSales\SoftwareSales\obj\x86\Debug\SoftwareSales.exe
+F:\Spring '13 Classes\Capstone\HW\SoftwareSales\SoftwareSales\obj\x86\Debug\SoftwareSales.xml
+F:\Spring '13 Classes\Capstone\HW\SoftwareSales\SoftwareSales\obj\x86\Debug\SoftwareSales.pdb

@@ -1,0 +1,34 @@
+﻿body 
+{
+    background-color:#FF9CF0;
+    color:#9C2189;
+    font-family:Century Gothic;
+    
+}
+
+a 
+{
+    text-decoration:none;
+}
+
+a:hover 
+{
+    color:#CC00AD;
+}
+  table.music {
+    margin-left:auto; 
+    margin-right:auto;
+    width:40%;
+  }
+  
+  table.cake {
+    margin-left:auto; 
+    margin-right:auto;
+    width:50%;
+  }
+  
+    table.flowers {
+    margin-left:auto; 
+    margin-right:auto;
+    width:80%;
+  }

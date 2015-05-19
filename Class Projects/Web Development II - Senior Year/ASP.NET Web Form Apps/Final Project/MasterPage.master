@@ -1,0 +1,91 @@
+﻿<style type="text/css">
+    .style1
+    {
+        text-align: center;
+    }
+    .style2
+    {
+        text-decoration: underline;
+    }
+    .style3
+    {
+        font-weight: normal;
+    }
+</style>
+<div id="container"><div id="header"></div>
+<ul class="semiopaquemenu">
+<li><a href="Default.aspx">Home</a></li>
+<li><a href="Join.aspx">Join</a></li>
+<li><a href="Activities.aspx">Activities</a></li>
+<li><a href="Events.aspx">Events</a></li>
+<li><a href="Aboutus.aspx">About Us</a></li>
+<li><a href="Contactus.aspx">Contact Us</a></li>
+<li><a href="Credits.aspx">Credits</a></li>
+</ul>
+<div class="bottombar"></div>
+
+<div id="text">
+<%@ Master Language="VB" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+   
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/prototype.js"></script>
+    <script type="text/javascript" src="js/scriptaculous.js?load=effects"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
+</div>
+<div id="pics" class="style1">
+    <strong>
+    <span class="style2">&nbsp;Image Gallery<br />
+    <br />
+    </span></strong>
+    <a href="images/1.jpg" rel="lightbox[naturecare]" title="NatureCare - helping to protect the Everglades!" ><img width="160px" height="120px" src="images/1.jpg"/></a><br />
+    <br />
+<a href="images/2.jpg" rel="lightbox[naturecare]" title="NatureCare - helping to protect the Everglades!" ><img width="160px" height="120px" src="images/2.jpg"/></a><br />
+    <br />
+<a href="images/3.jpg" rel="lightbox[naturecare]" title="NatureCare - helping to protect the Everglades!" ><img width="160px" height="120px" src="images/3.jpg"/></a><br />
+    <br />
+<a href="images/4.jpg" rel="lightbox[naturecare]" title="NatureCare - helping to protect the Everglades!" ><img width="160px" height="120px" src="images/4.jpg"/></a><br />
+</div>
+<div id="footer">
+<p>
+&nbsp;</p>
+        <strong>
+        Copyright NatureCare 2013. All Rights Reserved.<br />
+    </strong><br />
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="Default.aspx">Home</asp:HyperLink>
+&nbsp;| 
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="Join.aspx">Join</asp:HyperLink>
+&nbsp;| 
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="Activities.aspx">Activities</asp:HyperLink>
+&nbsp;| 
+        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="Events.aspx">Events</asp:HyperLink>
+&nbsp;| 
+        <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="Aboutus.aspx">About Us</asp:HyperLink>
+&nbsp;| 
+        <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="Contactus.aspx">Contact Us </asp:HyperLink>
+&nbsp;|&nbsp;
+        <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="Credits.aspx">Credits</asp:HyperLink>
+    </div>

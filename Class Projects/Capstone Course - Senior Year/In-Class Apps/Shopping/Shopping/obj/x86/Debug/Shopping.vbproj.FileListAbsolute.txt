@@ -1,0 +1,15 @@
+E:\Spring '13 Classes\Capstone\Shopping\Shopping\bin\Debug\Shopping.exe
+E:\Spring '13 Classes\Capstone\Shopping\Shopping\bin\Debug\Shopping.pdb
+E:\Spring '13 Classes\Capstone\Shopping\Shopping\bin\Debug\Shopping.xml
+E:\Spring '13 Classes\Capstone\Shopping\Shopping\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Spring '13 Classes\Capstone\Shopping\Shopping\obj\x86\Debug\Shopping.frmmain.resources
+E:\Spring '13 Classes\Capstone\Shopping\Shopping\obj\x86\Debug\Shopping.Resources.resources
+E:\Spring '13 Classes\Capstone\Shopping\Shopping\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Spring '13 Classes\Capstone\Shopping\Shopping\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Spring '13 Classes\Capstone\Shopping\Shopping\obj\x86\Debug\Shopping.exe
+E:\Spring '13 Classes\Capstone\Shopping\Shopping\obj\x86\Debug\Shopping.xml
+E:\Spring '13 Classes\Capstone\Shopping\Shopping\obj\x86\Debug\Shopping.pdb
+E:\Spring '13 Classes\Capstone\Shopping\Shopping\obj\x86\Debug\Shopping.frmsnacks.resources
+F:\Spring '13 Classes\Capstone\In-Class\Shopping\Shopping\obj\x86\Debug\Shopping.exe
+F:\Spring '13 Classes\Capstone\In-Class\Shopping\Shopping\obj\x86\Debug\Shopping.xml
+F:\Spring '13 Classes\Capstone\In-Class\Shopping\Shopping\obj\x86\Debug\Shopping.pdb
